@@ -9,7 +9,7 @@ var cors = require('cors');
 var mongodb = require("mongodb");
 
 var mongoclient = mongodb.MongoClient;
-var url = "mongodb://localhost:27017/todo";
+var url = "mongodb+srv://yadharth:thanumalya@cluster0.tbqrb.mongodb.net?retryWrites=true&w=majority";
 app.use(cors({
   origin: "*"
 }));

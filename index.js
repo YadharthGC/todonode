@@ -3,7 +3,7 @@ const app = express();
 const cors = require('cors');
 const mongodb = require("mongodb");
 const mongoclient = mongodb.MongoClient;
-const url = "mongodb://localhost:27017/todo"
+const url = "mongodb+srv://yadharth:thanumalya@cluster0.tbqrb.mongodb.net?retryWrites=true&w=majority"
 app.use(cors({
     origin: "*"
 }))
